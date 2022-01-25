@@ -1,5 +1,5 @@
 
-\*In Progress\*
+***\*In Progress\* ***
 # Repo for project Spring
 ## about
 ### "Spring Framework"
@@ -7,7 +7,7 @@
 
 ----
 
-***Instance frames***
+***Instance frames***>
 1. Spring Boot
 2. MVC
 3. Data
