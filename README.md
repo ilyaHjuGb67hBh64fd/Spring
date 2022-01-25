@@ -1,5 +1,5 @@
 
-__\*In Progress\*__
+___\*In Progress\*___
 # Repo for project Spring
 ## about
 ### ["Spring"](https://spring.io/)
@@ -21,5 +21,5 @@ __\*In Progress\*__
 
 
 ---
-### [The actual link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/main/README.md)
+### [It's link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/main/README.md)
 ~~~
