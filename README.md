@@ -1,7 +1,7 @@
 
 _\*In Progress\*_
-# Rrpo for projectes Spring
-# Some samples for Spring case 
+# Repo for projectes Spring
+### Some samples for Spring case 
 ### ["Spring"](https://spring.io/)
 #### Code wait, but soon
 
