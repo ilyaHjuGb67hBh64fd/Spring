@@ -1,2 +1,1 @@
-# Spring
-about Mvc
+# A naked sample
