@@ -1,7 +1,7 @@
 
 _\*In Progress\*_
-# Project spring
-### some samples for Spring case 
+# _Project spring_
+### _some samples for Spring case_ 
 ### ["spring.io"](https://spring.io/)
 #### ___Code wait, but soon___
 
@@ -21,6 +21,6 @@ _\*In Progress\*_
 
 
 ---
-### _[Self-link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/main/README.md)_
+### _[self-link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/main/README.md)_
 ~~~
 
