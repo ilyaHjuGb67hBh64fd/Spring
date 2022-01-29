@@ -21,5 +21,5 @@ _\*In Progress\*_
 
 
 ---
-### _[It's link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/main/README.md)_
+### _[Self-link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/main/README.md)_
 ~~~
