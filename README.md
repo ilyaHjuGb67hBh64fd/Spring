@@ -1,7 +1,8 @@
 
 _\*In Progress\*_
 # _Spring project_
-### _some samples for Spring case_ 
+---
+### _Some samples for Spring case modified and pulled from_ 
 ### _["spring.io"](https://spring.io/)_
 #### ___Code wait, but soon___
 
