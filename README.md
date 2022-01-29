@@ -1,6 +1,6 @@
 
 _\*In Progress\*_
-# projectes spring
+# project spring
 ### some samples for Spring case 
 ### ["spring.io"](https://spring.io/)
 #### ___Code wait, but soon___
