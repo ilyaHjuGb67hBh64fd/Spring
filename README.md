@@ -22,6 +22,6 @@ _\*In Progress\*_
 
 
 ---
-### _[self-link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/main/README.md)_
+### _[self-link](https://github.com/ilyaHjuGb67hBh64fd/Spring/edit/master/README.md)_
 ~~~
 
