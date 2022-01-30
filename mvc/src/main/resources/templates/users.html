@@ -9,16 +9,70 @@
 
 </head>
 <body>
-<div class="class">
-    <div class="vue">
-        {{massage}}
+<div class="">
+    <div id="list">
+        <ul>
+            <li v-for="item in  list">{{ list }}</li>
+            <!-- <li v-for="(index, item in  list">
+            index {{ index }}: {{ list }}</li>
+               -->
+        </ul>
+        <ul>
+            <li v-for="item in  list">{{ list }}</li>
+        </ul>
+    </div>
+    <div id="vue" :title="message + ' ' + 'Title name' ">
+        {{ massage }}
+        <h1 v-if="status == 1"> Yes </h1>
+        <hr>
+        <h1 v-else="status = 2"> No </h1>
+        <hr>
+        <h1 v-else> {{status}}</h1>
+        <h1 v-show> Заголовок v-show</h1>
+
+        <template v-else ="status == 1">
+            <h1> Заголовок 1</h1>
+            <p>Описание 1</p>
+        </template>
+
+        <template v-else = "ststus == 2">
+            <h1> Заголовок 2</h1>
+            <p>Описание 2</p>
+        </template>
+        <div class="class-default list" :class="{ active: isActive, look: isLook }">
+        <!-- <div :class="[isActive: ? 'active' : 'disabled', ' ' ]"> -->
+        <button @click="clickbtn"> Counter: {{ counter }} </button>
+        </div>
     </div>
 </div>
 <script type="text/javascript">
 		var app = new Vue({
 			el: '#vue',
 			data: {
-				message: 'Привет, Vue!'
+			    counter: 1
+			    list:  ['one', 'two','three']
+                users: [
+                { id: 1, name: 'Jhone'},
+                { id: 2, name; 'Robert'}
+                ]
+				message: 'Привет, Vue!',
+				status: 2,
+				isActive:true,
+				isLook: false
+			},
+		    created: function(){
+			this.counter =3;
+			this.clickbt();
+			methods: {
+			clickbtn(){
+			this.counter++;
+			}
+			nameFunction(){
+			alert('nameFunction');
+			},
+            {
+			nameFunction2: function(){
+			alert('nameFunction2');
 			}
 		})
 	</script>
@@ -32,7 +86,7 @@
     <li></li>
 </ul>
 
-<table class="Visible Table">
+<table border="1" @click="nameFunction">
     <tr>
         <td>1</td>
         <td>2</td>
