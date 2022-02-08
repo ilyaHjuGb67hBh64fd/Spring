@@ -1,11 +1,10 @@
 package Controler;
 
 import Data.Message.Users;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +31,20 @@ public class Controller {
         return "/users";
     }
 
+    @GetMapping("/get")
+    public @ResponseBody
+    ResponseEntity<String> get() {
+        return new ResponseEntity<String>("GET Response", HttpStatus.OK);
+    }
+
+    @PutMapping("/put")
+    public @ResponseBody ResponseEntity<String> put() {
+        return new ResponseEntity<String>("PUT Response", HttpStatus.OK);
+    }
+
+    @DeleteMapping("/delete")
+    public @ResponseBody ResponseEntity<String> delete() {
+        return new ResponseEntity<String>("DELETE Response", HttpStatus.OK);
 
 
 
